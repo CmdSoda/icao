@@ -1,0 +1,8 @@
+Terminal name,allowed,Terminal gate road names (you dont need gate_ prefix for this list)
+Main Terminal,"*AAL,*BAW,*DAL,*ROU,*RZO,*WJA, catch all","3,4,5,6,7,8"
+Terminal Apron,"*EJA,AAL,BAW,DAL,ROU,RZO,WJA, catch all","13,14,15,16"
+Terminal Apron C,"*CJT,Catch all","11,12A"
+Apron2,Catch all(GA),"81,82,83,84,85"
+Apron3,Catch all(cargo),"cargo1,cargo2"
+Apron6,Catch all(GA),"61,63,63A"
+Apron4,Catch all(GA),"68,69,70,71,72,73,74,75,76,78"
