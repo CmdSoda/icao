@@ -29,13 +29,14 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	defer clientsFile.Close()
 
 	al := []*core.Airlines{}
 
 	if err := gocsv.UnmarshalFile(clientsFile, &al); err != nil { // Load clients from file
 		panic(err)
 	}
+
+	clientsFile.Close()
 
 	fmt.Println("Press Ctrl-C to quit.")
 	reader := bufio.NewReader(os.Stdin)
